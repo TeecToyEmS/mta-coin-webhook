@@ -5,8 +5,8 @@ const app = express()
 
 app.use(express.json())
 
-const TOKEN = "SEU_TOKEN_MERCADOPAGO"
-const MTA_SERVER = "http://SEU_IP_MTA:22005/coinpayment"
+const TOKEN = "APP_USR-7636085536418940-031716-2a3ba784355f46cc7ce1c98dbc4d65e0-3050749506"
+const MTA_SERVER = "http://10.0.0.103:22003/coinpayment"
 
 app.post("/webhook", async (req,res)=>{
 
